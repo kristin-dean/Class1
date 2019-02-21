@@ -1,4 +1,7 @@
 body {
   margin: 20px;
   background-color: #7fdbff;
+  
+.list {
+  text-size: 150%;
 }
