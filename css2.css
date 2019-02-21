@@ -3,7 +3,7 @@ body {
   background-color: #7fdbff;
 }
 
-.list {
+.list, p {
   font-size: 150%;
 }
 
@@ -11,6 +11,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
-  height: 400px;}
+  width: 500px;
+  height: 300px;}
 }
