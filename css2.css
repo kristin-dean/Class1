@@ -1,7 +1,12 @@
 body {
   margin: 20px;
   background-color: #7fdbff;
-  
+}
+
 .list {
   font-size: 150%;
+}
+
+.center {
+
 }
