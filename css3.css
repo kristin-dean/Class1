@@ -1,0 +1,11 @@
+body {
+  margin: 20px;
+  background-color: #ffb6c1;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 200px;}
