@@ -1,6 +1,5 @@
 
 var dataB = d3.csv("breast.csv");
-var dataP = d3.csv("prostate.csv");
 
 dataB.then(function(data)
 {
@@ -13,19 +12,8 @@ function(err)
   console.log(err);
 });
 
-dataP.then(function(dataName)
-{
-  console.log("data",dataName);
-  drawChart(dataName, "#prostate", "blue", "#prostateLabel");
-  drawLegend(dataName, "#prostateLabel")
-},
-function(err)
-{
-  console.log(err);
-});
 
-
-//************************************** function to create charts ******************************************//
+//************************************** function to create chart ******************************************//
 
 var drawChart = function(colorData, idname, color, idname2)
 {
