@@ -45,4 +45,5 @@ var drawChart = function(colorData, idname)
     .attr("height", function(d)
       { return d.Number/15;})
     .attr("fill", function(d)
-      { return "pink"})
+      { return "pink"});
+}
