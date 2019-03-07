@@ -44,12 +44,12 @@ var drawChart = function(colorData, idname, color, idname2)
    .text(function(d)
       { return d.Count;})
    .attr("x", function(d,i)
-      { return i*barWidth + 35;})
+      { return i*barWidth + 40;})
    .attr("y", function(d)
       { return height - 20})
    .attr("fill", "black")
    .attr("font-family", "sans-serif")
-   .attr("font-size", "11px")
+   .attr("font-size", "13px")
    .attr("text-anchor", "middle");
 };
   
