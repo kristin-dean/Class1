@@ -1,10 +1,10 @@
-CancerType,Duration,Race,Sex,Age,Percentage,Count
-Female Breast,13-year Limited Duration,White,Female,0-19,0.0001,26
-Female Breast,13-year Limited Duration,White,Female,20-29,0.013,2134
-Female Breast,13-year Limited Duration,White,Female,30-39,0.1806,28293
-Female Breast,13-year Limited Duration,White,Female,40-49,0.95,152017
-Female Breast,13-year Limited Duration,White,Female,50-59,2.2083,398082
-Female Breast,13-year Limited Duration,White,Female,60-69,3.516,524732
-Female Breast,13-year Limited Duration,White,Female,70-79,4.9372,440704
-Female Breast,13-year Limited Duration,White,Female,80+,4.8595,315863
+CancerType,Duration,Race,Sex,Age,Percentage,Count,Color
+Female Breast,13-year Limited Duration,White,Female,0-19,0.0001,26,red
+Female Breast,13-year Limited Duration,White,Female,20-29,0.013,2134,blue
+Female Breast,13-year Limited Duration,White,Female,30-39,0.1806,28293,purple
+Female Breast,13-year Limited Duration,White,Female,40-49,0.95,152017,orange
+Female Breast,13-year Limited Duration,White,Female,50-59,2.2083,398082,black
+Female Breast,13-year Limited Duration,White,Female,60-69,3.516,524732,yellow
+Female Breast,13-year Limited Duration,White,Female,70-79,4.9372,440704,green
+Female Breast,13-year Limited Duration,White,Female,80+,4.8595,315863,pink
 
