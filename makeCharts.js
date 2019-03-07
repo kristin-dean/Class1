@@ -34,7 +34,8 @@ var drawChart = function(colorData, idname, color, idname2)
     .attr("width", barWidth - 4)
     .attr("height", function(d)
       { return d.Count/800;})
-    .attr("fill", color);
+    .attr("fill", function(d)
+          { return d.Color;});
   
   svg.selectAll("text")
    .data(colorData)
