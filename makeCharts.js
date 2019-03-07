@@ -56,7 +56,7 @@ var drawChart = function(colorData, idname, color, idname2)
 var drawLegend = function(colorData, idname)
 {
   var width = 200;
-  var height = 200;
+  var height = 600;
   var boxWidth = 15;
   var svg = d3.select(idname)
               .attr("height", height)
