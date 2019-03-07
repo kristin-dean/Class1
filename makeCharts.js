@@ -50,7 +50,8 @@ var drawChart = function(colorData, idname, color, idname2)
    .attr("fill", "black")
    .attr("font-family", "sans-serif")
    .attr("font-size", "13px")
-   .attr("text-anchor", "middle");
+   .attr("text-anchor", "middle")
+   .attr("text-weight", "bold");
 };
   
 var drawLegend = function(colorData, idname)
