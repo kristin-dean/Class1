@@ -5,7 +5,7 @@ var dataP = d3.csv("prostate.csv");
 dataB.then(function(data)
 {
   console.log("data",data);
-  drawChart(data, "#breast", "pink", "#breastLabel);
+  drawChart(data, "#breast", "pink", "#breastLabel");
 },
 function(err)
 {
@@ -15,7 +15,7 @@ function(err)
 dataP.then(function(dataName)
 {
   console.log("data",dataName);
-    drawChart(dataName, "#prostate", "blue", "#prostateLabel);
+    drawChart(dataName, "#prostate", "blue", "#prostateLabel");
 },
 function(err)
 {
