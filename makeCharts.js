@@ -17,7 +17,7 @@ dataP.then(function(dataName)
 {
   console.log("data",dataName);
   drawChart(dataName, "#prostate", "blue", "#prostateLabel");
-  drawLegend(data, "#prostateLabel")
+  drawLegend(dataName, "#prostateLabel")
 },
 function(err)
 {
