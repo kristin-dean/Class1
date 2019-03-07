@@ -86,7 +86,6 @@ var drawLegend = function(colorData, idname)
     .attr("fill", "pink");
 
 svg.selectAll("text")
-  axes.selectAll("text")
    .data(colorData)
    .enter()  
    .append("text")
