@@ -30,10 +30,10 @@ var drawChart = function(colorData, idname, color, idname2)
      .attr("x", function(d,i)
       { return i*barWidth + 10;})
     .attr("y", function (d)
-      { return height - d.Count/400;})
+      { return height - d.Count/800;})
     .attr("width", barWidth - 4)
     .attr("height", function(d)
-      { return d.Count/200;})
+      { return d.Count/800;})
     .attr("fill", color);
   
   svg.selectAll("text")
