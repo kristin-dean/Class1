@@ -83,8 +83,7 @@ var drawLegend = function(colorData, idname)
       { return (i+1)*15 + 10;})
     .attr("width", boxWidth)
     .attr("height", boxWidth-3)
-    .attr("fill", "pink")
- };
+    .attr("fill", "pink");
 
 svg.selectAll("text")
   axes.selectAll("text")
@@ -100,4 +99,4 @@ svg.selectAll("text")
    .attr("fill", "black")
    .attr("font-family", "sans-serif")
    .attr("font-size", "11px")
-}
+};
