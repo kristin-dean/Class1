@@ -29,7 +29,7 @@ var drawChart = function(colorData, idname)
 {
   var width = 1500;
   var height = 400;
-  var barWidth = width/colorData.length - 20;
+  var barWidth = width/colorData.length - 10;
   var svg = d3.select(idname)
               .attr("height", height)
               .attr("width", width);
@@ -40,7 +40,7 @@ var drawChart = function(colorData, idname)
      .attr("x", function(d,i)
       { return i*barWidth + 10;})
     .attr("y", function (d)
-      { return height - d.Count/250;})
+      { return height - d.Count/350;})
     .attr("width", barWidth)
     .attr("height", function(d)
       { return d.Count/200;})
