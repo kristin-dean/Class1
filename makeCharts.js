@@ -5,7 +5,7 @@ var dataP = d3.csv("prostate.csv");
 dataB.then(function(data)
 {
   console.log("data",data);
-  drawChart(data, "#breast");
+  drawChart(data, "#breast", "pink");
 },
 function(err)
 {
@@ -15,7 +15,7 @@ function(err)
 dataP.then(function(dataName)
 {
   console.log("data",dataName);
-    drawChart(dataName, "#prostate");
+    drawChart(dataName, "#prostate", "blue");
 },
 function(err)
 {
@@ -25,7 +25,7 @@ function(err)
 
 //************************************** function to create charts ******************************************//
 
-var drawChart = function(colorData, idname)
+var drawChart = function(colorData, idname, color)
 {
   var width = 1500;
   var height = 600;
@@ -44,6 +44,5 @@ var drawChart = function(colorData, idname)
     .attr("width", barWidth - 4)
     .attr("height", function(d)
       { return d.Count/200;})
-    .attr("fill", function(d)
-      { return "pink"});
+    .attr("fill", color);
 }
