@@ -55,37 +55,35 @@ var drawChart = function(colorData, idname, color, idname2)
   
 var drawLegend = function(colorData, idname)
 {
-  var width = 125;
-  var height = 600;
+  var width = 200;
+  var height = 200;
   var boxWidth = 15;
   var svg = d3.select(idname)
               .attr("height", height)
               .attr("width", width);
-  
- svg.selectAll("rect")
+  svg.selectAll("rect")
      .data(colorData)
      .enter()
      .append("rect")
      .attr("x", function(d,i)
-      { return 15;})
+      { return 25;})
     .attr("y", function (d, i)
       { return (i+1)*15 + 10;})
     .attr("width", boxWidth)
     .attr("height", boxWidth-3)
     .attr("fill", function(d)
-          { return d.Color});
+      { return d.Color;})
 
 svg.selectAll("text")
    .data(colorData)
-   .enter()  
+   .enter()
    .append("text")
-   .text(function(d) 
+   .text(function(d)
       { return d.Age;})
    .attr("x", function(d,i)
-      { return 25})
-   .attr("y", function(d,i)
-      { return (i+1)*15 + 30;})
+      { return 45})
+   .attr("y", function(d, i)
+      { return (i+1)*15 + 22;})
    .attr("fill", "black")
-   .attr("font-family", "sans-serif")
-   .attr("font-size", "11px")
-};
+
+}
