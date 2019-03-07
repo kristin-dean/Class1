@@ -1,0 +1,25 @@
+﻿CancerType,Duration,Race,Sex,Age,Percentage,Count
+Prostate,13-year Limited Duration,White,Male,0-19,0.0002,79
+Prostate,13-year Limited Duration,White,Male,20-29,0.0001,18
+Prostate,13-year Limited Duration,White,Male,30-39,0.0011,174
+Prostate,13-year Limited Duration,White,Male,40-49,0.0604,9781
+Prostate,13-year Limited Duration,White,Male,50-59,0.9105,159897
+Prostate,13-year Limited Duration,White,Male,60-69,4.2477,589047
+Prostate,13-year Limited Duration,White,Male,70-79,9.3219,705804
+Prostate,13-year Limited Duration,White,Male,80+,9.5229,382310
+Prostate,13-year Limited Duration,Black,Male,0-19,0.0002,15
+Prostate,13-year Limited Duration,Black,Male,20-29,0.0001,2
+Prostate,13-year Limited Duration,Black,Male,30-39,0.0025,71
+Prostate,13-year Limited Duration,Black,Male,40-49,0.1665,4391
+Prostate,13-year Limited Duration,Black,Male,50-59,1.8179,47165
+Prostate,13-year Limited Duration,Black,Male,60-69,7.1983,118632
+Prostate,13-year Limited Duration,Black,Male,70-79,13.8089,101135
+Prostate,13-year Limited Duration,Black,Male,80+,12.1935,38186
+Prostate,13-year Limited Duration,Other,Male,0-19,0.0001,4
+Prostate,13-year Limited Duration,Other,Male,20-29,0,0
+Prostate,13-year Limited Duration,Other,Male,30-39,0.0002,4
+Prostate,13-year Limited Duration,Other,Male,40-49,0.0174,288
+Prostate,13-year Limited Duration,Other,Male,50-59,0.2963,3985
+Prostate,13-year Limited Duration,Other,Male,60-69,1.6971,15413
+Prostate,13-year Limited Duration,Other,Male,70-79,4.5333,20464
+Prostate,13-year Limited Duration,Other,Male,80+,5.6335,11501
