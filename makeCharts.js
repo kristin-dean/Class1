@@ -55,7 +55,9 @@ var drawChart = function(colorData, idname, color)
    .attr("x", function(d,i)
        { return i*barWidth + 10;})
    .attr("y", function(d)
-      { return 25})
+      { return height - 25})
    .attr("fill", "black")
+   .attr("font-family", "sans-serif")
+   .attr("font-size", "11px")
 
 }
