@@ -45,4 +45,17 @@ var drawChart = function(colorData, idname, color)
     .attr("height", function(d)
       { return d.Count/200;})
     .attr("fill", color);
+  
+  svg.selectAll("text")
+   .data(colorData)
+   .enter()
+   .append("text")
+   .text(function(d)
+      { return d.Count;})
+   .attr("x", function(d,i)
+       { return i*barWidth + 10;})
+   .attr("y", function(d)
+      { return 25})
+   .attr("fill", "black")
+
 }
