@@ -59,7 +59,7 @@ var drawChart = function(colorData, idname, color)
    .attr("fill", "black")
    .attr("font-family", "sans-serif")
    .attr("font-size", "11px")
-   .attr("text-anchor", "middle")
+   .attr("text-anchor", "middle");
   
   svg.selectAll("text")
    .data(colorData)
