@@ -6,6 +6,7 @@ dataB.then(function(data)
 {
   console.log("data",data);
   drawChart(data, "#breast", "pink", "#breastLabel");
+  drawLegend(data, "#breastLabel")
 },
 function(err)
 {
