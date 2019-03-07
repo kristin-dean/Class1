@@ -53,12 +53,10 @@ var drawChart = function(colorData, idname, color)
    .text(function(d)
       { return d.Count;})
    .attr("x", function(d,i)
-       { return i*barWidth + 10;})
+       { return i*barWidth + 12;})
    .attr("y", function(d)
       { return height - 25})
    .attr("fill", "black")
    .attr("font-family", "sans-serif")
    .attr("font-size", "11px")
-   .attr("transform", "rotate(90deg)");
-
 }
