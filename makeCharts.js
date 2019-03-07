@@ -36,7 +36,8 @@ var drawChart = function(colorData, idname, color, idname2)
       { return d.Count;})
     .attr("fill", function(d)
           { return d.Color;})
-    .attr("stroke", "black")
+    .attr("stroke", function(d)
+          { return d.Color;})
     .attr("stroke-width", "1");
   
   svg.selectAll("text")
