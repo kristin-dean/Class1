@@ -33,7 +33,7 @@ var drawChart = function(colorData, idname, color, idname2)
       { return height - d.Count/800;})
     .attr("width", barWidth - 4)
     .attr("height", function(d)
-      { if (d.Count/800 > 1000) {
+      { if (d.Count/800 < 1000) {
         return d.Count/800;
       } else { 
         return 2;}})
