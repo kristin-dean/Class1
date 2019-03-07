@@ -60,11 +60,31 @@ var drawChart = function(colorData, idname, color, idname2)
    .attr("font-family", "sans-serif")
    .attr("font-size", "11px")
    .attr("text-anchor", "middle");
+};
   
-  var axes = d3.select(idname2)
+var drawLegend = function(colorData, idname)
+{
+  var width = 125;
+  var height = 600;
+  var boxWidth = 15;
+  var svg = d3.select(idname)
               .attr("height", height)
               .attr("width", width);
-      
+  
+ svg.selectAll("rect")
+     .data(colorData)
+     .enter()
+     .append("rect")
+     .attr("x", function(d,i)
+      { return 15;})
+    .attr("y", function (d, i)
+      { return (i+1)*15 + 10;})
+    .attr("width", boxWidth)
+    .attr("height", boxWidth-3)
+    .attr("fill", function(d)
+      { return d.color;});
+
+svg.selectAll("text")
   axes.selectAll("text")
    .data(colorData)
    .enter()  
@@ -72,9 +92,9 @@ var drawChart = function(colorData, idname, color, idname2)
    .text(function(d) 
       { return d.Age;})
    .attr("x", function(d,i)
-      { return i*barWidth + 14;})
-   .attr("y", function(d)
-      { return height - 50;})
+      { return 15})
+   .attr("y", function(d,i)
+      { return (i+1)*15 + 10;})
    .attr("fill", "black")
    .attr("font-family", "sans-serif")
    .attr("font-size", "11px")
