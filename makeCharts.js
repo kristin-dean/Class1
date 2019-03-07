@@ -83,8 +83,8 @@ var drawLegend = function(colorData, idname)
       { return (i+1)*15 + 10;})
     .attr("width", boxWidth)
     .attr("height", boxWidth-3)
- //   .attr("fill", function(d)
-   //   { return d.color;});
+    .attr("fill", "pink")
+ });
 
 svg.selectAll("text")
   axes.selectAll("text")
