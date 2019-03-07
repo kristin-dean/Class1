@@ -40,10 +40,10 @@ var drawChart = function(colorData, idname)
      .attr("x", function(d,i)
       { return i*barWidth;})
     .attr("y", function (d)
-      { return height - d.Number/15;})
+      { return height - d.Count/15;})
     .attr("width", barWidth)
     .attr("height", function(d)
-      { return d.Number/15;})
+      { return d.Count/15;})
     .attr("fill", function(d)
       { return "pink"});
 }
