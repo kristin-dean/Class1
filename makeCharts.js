@@ -59,6 +59,6 @@ var drawChart = function(colorData, idname, color)
    .attr("fill", "black")
    .attr("font-family", "sans-serif")
    .attr("font-size", "11px")
-   .attr("transform", "rotate(90deg)")
+   .attr("transform", "rotate(90deg)");
 
 }
