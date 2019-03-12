@@ -15,6 +15,18 @@
 <p>The animation linked above graphs (in a scatterplot format) Forbes' ranking of the Top 50 Most Valuable Sports Franchises based on
   number of champtionships won and years in operation. This visualization incorperates franchises from a handful of sports and teams
   across the world so the data incorporated in very widespread.</p>
+ 
+<p>Some of the features I see in this visualization that remind me of methods from our reading are as follow:</p>
+  <ul>
+    <li>.on() - This method waits for the click of a mouse to tell the graph how to interact with the user's inputs. When the user 
+      clicks speciic sports at the top of the chart, the data being plotted changes depending on what sport is selected. If the 
+      user clicks the "Baseball" text, the dateset being displayed changes to just the baseball teams ranked in the top 50 most 
+      valuable. This happens for every sport and the "View All" option; a new dataset is bound to the graph and the scatterplot is 
+      updated accordingly.</li>
+    <li>.transition() - This method makes the change between datasets very smooth, so when the user clicks a new sport to view,
+      the old plot points don't just disappear, they fade and the new data fades in. This feature makes the visualization very pleasing
+      and nicer to look at.</li>
+  </ul>
   
   
 </body>
