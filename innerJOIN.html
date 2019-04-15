@@ -6,7 +6,8 @@
 
 <body>
 <h2>SQL Inner JOIN</h2>
-<p>The inner JOIN keyword in SQL is a specific way of merging tables in an SQL database. The syntax for calling the inner JOIN method is below:</p>
+<p>The inner JOIN keyword in SQL is a specific way of merging tables in an SQL database. The syntax for calling the inner
+  JOIN method is below:</p>
 
 <pre>
 SELECT column_name(s)
@@ -15,7 +16,12 @@ INNER JOIN table2
 ON table1.column_name = table2.column_name;
 </pre>
 
-<p>Walking through each line of the sample code above will allow us to understand inner JOIN better. The first line  ~ SELECT column_name(s) ~ shows what we want the database to feed back to us after the rest of the code executes. The code then joins specifies the table we want to look at which is in this case ~ table1 ~. The third line is where the inner JOIN keyword comes into play. Here, the SQL command instructs the function to join every record that have matching values in both tables, as specified by the ~ ON ~ line of code. Overall, the sample command above searches through the database and returns the fields under column_name(s) from table1 and table2 where table1.column_name equals table2.column_name. </p>
+<p>Walking through each line of the sample code above will allow us to understand inner JOIN better. The first line
+  ~ SELECT column_name(s) ~ shows what we want the database to feed back to us after the rest of the code executes. 
+  The code then specifies the table we want to look at which is in this case ~ table1 ~. The third line is where the inner 
+  JOIN keyword comes into play. Here, the SQL command instructs the function to join every record that have matching values
+  in both tables, as specified by the ~ ON ~ line of code. Overall, the sample command above searches through the database and 
+  returns the fields under column_name(s) from table1 and table2 where table1.column_name equals table2.column_name. </p>
 <p>Let’s consider a more specific example:
 
 <pre>
@@ -24,7 +30,9 @@ FROM Orders
 INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
 </pre>
 
-<p>The code above joins the Orders and Customers tables in the database and then returns the OrderID column from the Orders table as well as the CustomerName column from the Customers table, wherever the CustomerID column in Orders is exactly the same as the CustomerID column in Customers.</p>
+<p>The code above joins the Orders and Customers tables in the database and then returns the OrderID column from the Orders 
+  table as well as the CustomerName column from the Customers table, wherever the CustomerID column in Orders is exactly the 
+  same as the CustomerID column in Customers.</p>
 
 </body>
 </html>
