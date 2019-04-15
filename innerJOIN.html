@@ -33,6 +33,9 @@ INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
 <p>The code above joins the Orders and Customers tables in the database and then returns the OrderID column from the Orders 
   table as well as the CustomerName column from the Customers table, wherever the CustomerID column in Orders is exactly the 
   same as the CustomerID column in Customers.</p>
+<p>In general, JOIN is a way in which SQL databases can merge columns and records from multiple tables with just one command. 
+  Inner JOIN more specifically requires a line of code starting with ON that clearly states which columns in each table have to match
+  in order for the SQL command to retrieve the desired data.</p>
 
 </body>
 </html>
