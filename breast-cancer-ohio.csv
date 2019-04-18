@@ -1,0 +1,6 @@
+Area,CancerType,Year,Race,Sex,AgeAdjustedRate,CaseCount,Population
+Ohio,Female Breast,2015,American Indian/Alaska Native,Female,16.7,Data Suppressed,20934
+Ohio,Female Breast,2015,Hispanic,Female,65.5,83,201088
+Ohio,Female Breast,2015,Asian/Pacific Islander,Female,73.1,86,139934
+Ohio,Female Breast,2015,Black,Female,124,1008,821671
+Ohio,Female Breast,2015,White,Female,129,8325,4938644
